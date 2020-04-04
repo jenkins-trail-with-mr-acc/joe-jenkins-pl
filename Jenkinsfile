@@ -14,7 +14,7 @@ pipeline {
         }
         stage('second_stage') {
             steps {
-            echo "creating secound file"
+            echo "creating second file"
             script {
             try {
                 sh "touch tmp/test2"
